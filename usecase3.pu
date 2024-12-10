@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+package system{
+    usecase "function1" as f1
+    usecase "function2" as f2
+}
+:user: --> f1
+:user: --> f2
+@enduml
